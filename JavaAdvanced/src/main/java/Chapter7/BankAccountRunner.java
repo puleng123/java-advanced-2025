@@ -11,7 +11,6 @@ public class BankAccountRunner
         objBank.setAccHolder("");
         objBank.deposit(500);
         objBank.withdraw(200);
-        objBank.transfer(100);
 
         System.out.println("=========================================");
         objBank.displayDetails();

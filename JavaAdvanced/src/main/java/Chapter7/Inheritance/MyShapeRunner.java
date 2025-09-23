@@ -12,6 +12,15 @@ public class MyShapeRunner
         MySquare objSquare = new MySquare(5);
         objSquare.display("Square");
 
+        //ADDED HOMEWORK
+        MyCircle objCircle = new MyCircle(5);
+        objCircle.display("Circle");
+
+        MyTriangle objTriangle = new MyTriangle(5,6);
+        objTriangle.display("Triangle");
+
+        MyParallelogram objParallelogram = new MyParallelogram(5,6);
+        objParallelogram.display("Parallelogram");
     }
 
 

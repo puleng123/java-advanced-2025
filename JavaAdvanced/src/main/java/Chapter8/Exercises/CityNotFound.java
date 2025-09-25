@@ -1,5 +1,6 @@
 package Chapter8.Exercises;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class CityNotFound {
@@ -19,7 +20,11 @@ public class CityNotFound {
             }
             catch (ArrayIndexOutOfBoundsException e)
             {
-                System.out.println("Oops, integer out of bounds!");
+                System.out.println("Oops, index out of bounds!");
+            }
+            catch (InputMismatchException e)
+            {
+                System.out.println("input mismatch, 0-7 expected");
             }
 
     }
